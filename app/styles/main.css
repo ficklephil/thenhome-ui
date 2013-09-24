@@ -1,7 +1,45 @@
+@font-face {
+    font-family: 'DotLine';
+    src: url('../fonts/DOTLB___.TTF');
+}
+
+@font-face {
+    font-family: 'BellGothicLight';
+    src: url('../fonts/BellGothicStd-Light.otf');
+}
+
+@font-face {
+    font-family: 'BellGothicBold';
+    src: url('../fonts/BellGothicStd-Bold.otf');
+}
+
+@font-face {
+    font-family: 'BellGothicBlack';
+    src: url('../fonts/BellGothicStd-Black.otf');
+}
+
+a:link{
+    color: #efefef;
+    text-decoration:none;
+}
+a:visited{
+    color: #efefef;
+    text-decoration:none;
+}
+
+a:hover{
+    color: #333333;
+    /*background-color: #FDD017;*/
+    background-color: #efefef;
+    /*text-decoration:underline;*/
+}
+
 body {
     background: #fafafa;
     font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
     color: #333;
+    margin:0;
+    padding:0;
 }
 
 .hero-unit {
@@ -20,3 +58,38 @@ body {
     line-height: 1;
     letter-spacing: -1px;
 }
+
+/* Fonts */
+.bell-gothic-white{
+    font-family: 'Arial', 'Helvetica', sans-serif;
+    /*font-weight: bold;*/
+    font-size:0.8em;
+                  font-kerning: auto;
+    color:#efefef;
+}
+
+.main-nav{
+    width:100%;
+    height:40px;
+    background-color: #343434;
+    border-bottom: 1px solid #777777;
+}
+
+.main-nav-menu{
+    float:right;
+    /*width:168px;*/
+    margin-right:18px;
+    padding-top: 13px;
+    border:0px solid red;
+    color: #efefef;
+}
+
+.then-home-logo{
+    z-index:1;
+    position: absolute;
+    top:7px;
+    left:20px;
+    height:80px;
+    width:175px;
+}
+

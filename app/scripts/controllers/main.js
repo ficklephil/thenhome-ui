@@ -3,7 +3,7 @@
 angular.module('thenhomeUiApp')
   .controller('MainCtrl', function ($scope) {
     $scope.awesomeThings = [
-      'HTML5 Boilerplate',
+      'HTML5 Boilerplsate',
       'AngularJS',
       'Karma'
     ];
