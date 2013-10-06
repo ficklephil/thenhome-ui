@@ -1,6 +1,6 @@
 'use strict';
 
-angular.module('thenhomeUiApp', [])
+angular.module('thenhomeUiApp', ["google-maps"])
   .config(function ($routeProvider) {
     $routeProvider
       .when('/', {

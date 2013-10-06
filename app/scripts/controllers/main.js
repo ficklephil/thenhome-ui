@@ -7,4 +7,12 @@ angular.module('thenhomeUiApp')
       'AngularJS',
       'Karma'
     ];
+
+    $scope.center = {
+        latitude: 51.460474, // initial map center latitude
+        longitude: -0.358880 // initial map center longitude
+    }
+    $scope.markers = [];
+    $scope.zoom = 8;
+
   });
